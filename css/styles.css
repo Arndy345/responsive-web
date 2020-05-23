@@ -1,0 +1,43 @@
+body, *{
+	box-sizing: border-box;
+}
+h1{
+	padding-bottom: 10px;
+	
+}
+.navbar-dark{
+	background-color: #512DA8;
+}
+body{
+	padding: 0px 0px 0px 0px;
+
+}
+.navbar{
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+button{
+	margin-bottom: 10px;
+}
+
+
+.nav-item{
+	background-color: black;
+	color: white;
+	border-bottom: 1px solid white;
+}
+.content{
+	width: 100%;
+	color: white;
+	background-color: grey;
+	border: 2px solid black;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+p{
+	font-size: 1.5em;
+	font-family: fantasy;
+}
+#Navbar{
+	margin: 0px -15px -8px -15px;
+}

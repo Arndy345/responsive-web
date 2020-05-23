@@ -1,36 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"><html>
 <head>
-	<title>Responsive</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css\style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+    <link rel="stylesheet" type="text/css" href="bootstrap\bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css\styles.css">
+	<title>Twitter Bootstrap</title>
 </head>
+
 <body>
-	<header>
-		<h1>
-			Our Menu
-		</h1>
-	</header>
+	<nav class="navbar navbar-dark navbar-expand-sm bg-primary">
+    	<div class="container">
+        	<a href="#" class="navbar-brand mr-auto">Food, LLC</a>
+        	<button class="navbar-toggler visible-xs" type="button" data-toggle="collapse" data-target= "#Navbar">
+    			<span class="navbar-toggler-icon">
+    				
+    			</span>
+       		</button>
+        	<div class="collapse navbar-collapse" id="Navbar">
+        		<div class="navbar-nav text-center d-sm-none d-xl-none">
+                    <div class="nav-item active"><p class="text-center">Chicken</p></div>
+                    <div class="nav-item"><p class="text-center">Beef</p></div>
+                    <div class="nav-item"><p class="text-center">Sushi</p></div>
+            	</div>
+       	 	</div>   
+   		</div>
+       	
+	</nav>
 	<div class="container">
-		<div class="col-lg-4 col-md-6 col-sm-12">
+		<div class="row ">
+			<div class="col-12 col-sm-12 " >
+				<h1 class="text-center">Our Menu</h1>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 row-content">
 
-			<p>
-				<span id="Chicken">Chicken</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi tristique sapien ac erat tincidunt, sit amet dignissim
+				<div class ="content"><p class="text-center">Chicken</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi tristique sapien ac erat tincidunt, sit amet dignissim
 		     	lectus vulputate. Donec id iaculis velit. Aliquam vel malesuada erat. Praesent non magna ac massa aliquet tinciduntvel in massa. Phasellus feugiat est vel leo finibus congue
-		 	</p>
-		</div>
-		<div  class="col-lg-4 col-md-6 col-sm-12">
-			<p>
-				<span id="Beef">Beef</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi tristique sapien ac erat tincidunt, sit amet dignissim lectus vulputate. Donec id iaculis velit. Aliquam vel malesuada erat. Praesent non magna ac massa aliquet tincidunt vel in massa. Phasellus feugiat est vel leo finibus congue
-			</p>
-	 	</div>
-		<div class="col-lg-4 col-md-12 col-sm-12">
-			<p>
-				<span id="Sushi">Sushi</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi tristique sapien ac erat tincidunt, sit amet dignissimlectus vulputate. Donec id iaculis velit. Aliquam vel malesuada erat. Praesent non magna ac massa aliquet tincidunt vel in massa. Phasellus feugiat est vel leo finibus congue
-			</p>
- 		</div> 
-	</div>
+		     	Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi tristique sapien ac erat tincidunt, sit amet dignissim
+		     	lectus vulputate. Donec id iaculis velit. Aliquam vel malesuada erat. Praesent non magna ac massa aliquet tinciduntvel in massa. Phasellus feugiat est vel leo finibus congue
 
+		 		</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 row-content">
+				<div class ="content"><p class="text-center">Beef</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi tristique sapien ac erat tincidunt, sit amet dignissim
+		     	lectus vulputate. Donec id iaculis velit. Aliquam vel malesuada erat. Praesent non magna ac massa aliquet tinciduntvel in massa. Phasellus feugiat est vel leo finibus congue
+		     	Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi tristique sapien ac erat tincidunt, sit amet dignissim
+		     	lectus vulputate. Donec id iaculis velit. Aliquam vel malesuada erat. Praesent non magna ac massa aliquet tinciduntvel in massa. Phasellus feugiat est vel leo finibus congue
+		 		</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 row-content">
+				<div class ="content"><p class="text-center">Sushi</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi tristique sapien ac erat tincidunt, sit amet dignissim
+		     	lectus vulputate. Donec id iaculis velit. Aliquam vel malesuada erat. Praesent non magna ac massa aliquet tinciduntvel in massa. Phasellus feugiat est vel leo finibus congue
+		     	Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi tristique sapien ac erat tincidunt, sit amet dignissim
+		     	lectus vulputate. Donec id iaculis velit. Aliquam vel malesuada erat. Praesent non magna ac massa aliquet tinciduntvel in massa. Phasellus feugiat est vel leo finibus congue
+		 		</div>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+    <script type="text/javascript" src="bootstrap\jquery.slim.min.js"></script>
+    <script type="text/javascript" src="js\bootstrap.min.js"></script>
 </body>
 </html>
